@@ -1,3 +1,5 @@
+import string
+
 class Alphabet:
     def __init__(self, lang, letters):
         self.lang = lang
@@ -8,8 +10,6 @@ class Alphabet:
     
     def letters_num(self):
         return len(self.letters)
-
-import string
 
 class EngAlphabet(Alphabet):
     _letters_num = 26
